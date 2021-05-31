@@ -1,0 +1,75 @@
+.start{
+    width: 400px;
+    height: 250px;
+    background-color: blueviolet;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px grey;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+.start input{
+    display: block;
+    padding: 3px;
+    border-radius: 3px;
+    width: 300px;
+    margin: 10px auto;
+    /* margin-top: 150px; */
+}
+.start button{
+    padding: 5px;
+    border-radius: 5px;
+    background-color: darkblue;
+    color: white;
+    display: block;
+    margin: 0 auto;
+}
+.main .time{
+    width: 200px;
+    height: 600px;
+    float: left;
+    background-color: red;
+    color: black;
+}
+.main .game{
+    width: 300px;
+    min-height: 300px;
+    margin-left: 10%;
+    float: left;
+    border: 2px solid black;
+}
+.main{
+    display: none;
+}
+.divIn{
+    float: left;
+    width: 100px;
+    height: 100px;
+    background-size: cover;
+    background-position: center;
+    border: 1px solid red;
+}
+.back{
+    background-image: url(../images/pokeball.png) !important;
+}
+
+#loser, #winner{
+    width: 700px !important;
+    height: 700px;
+    border: none;
+    background-image: url(../images/lose.gif) !important;
+    background-size: cover;
+    background-position: center;
+    
+    
+}
+
+#loser{
+    background-image: url(../images/lose.gif) !important; 
+}
+
+#winner{
+    background-image: url(../images/winner.png) !important;
+}
